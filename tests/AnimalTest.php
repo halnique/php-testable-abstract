@@ -9,7 +9,7 @@ class AnimalTest extends TestCase
 {
     private $name;
 
-    protected function setup()
+    protected function setup(): void
     {
         parent::setup();
 
